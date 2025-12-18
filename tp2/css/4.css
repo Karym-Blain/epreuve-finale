@@ -1,0 +1,35 @@
+.principal{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.principal__article{
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis : 400px;
+
+}
+.principal__article p{
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.principal__figure{
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis : 400px;
+
+
+}
+.principal__figure img{
+    display: block;
+    width: 80%;
+    object-fit: cover;
+}
+
+.principal{
+   /*gauche droite avec les images*/
+   /* fait une classe différente pour chaque image*/
+    flex-direction: row;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,35 @@
+
+.pied {
+    display: flex;
+    flex-direction: row ;
+    
+}
+.pied__section{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.pied__cours{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.pied__resume{
+   flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+   
+}
+.pied__sociaux{
+    flex-grow: 1;
+    display: flex;
+    
+    
+    
+   
+    
+   
+}
+h2{
+    top:0;
+}

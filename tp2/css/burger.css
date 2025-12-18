@@ -1,0 +1,12 @@
+.menu__burger,
+#chk-burger {
+  display: none;
+}
+
+.menu__burger a {
+  display: inline-block;
+}
+
+#chk-burger:checked ~ .menu__burger {
+  display: block;
+}

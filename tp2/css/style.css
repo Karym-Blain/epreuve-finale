@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* ///////////////////////////////// Général  */
+/* Les sélecteurs généraux ont un impact sur chacune des section de la page */
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h2{
+  
+  font-family: "DynaPuff";
+  padding-bottom: 10px;
+}
+.h3__risque{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  
+}
+h1 {
+  font-family: "DynaPuff";
+  font-size: 40px;
+}
+
+h3 {
+}
+.p__accueil2{
+  font-size: 20px;
+  font-family: "Bebas Neue";
+}
+.p__accueil {
+  
+  font-size: 20px;
+  font-family: "Bebas Neue";
+}
+.p__meteo{
+  font-size: 20px;
+  font-family: "Bebas Neue";
+}
+.p__avion{
+  font-size: 20px;
+  font-family: "Bebas Neue";
+}
+.p__politique{
+  font-size: 20px;
+  font-family: "Bebas Neue";
+}
+.p__argent{
+  font-size: 20px;
+  font-family: "Bebas Neue";
+}
+.p__culture{
+  font-size: 20px;
+  font-family: "Bebas Neue";
+}
+.p__inscription{
+  padding-top: 50px;
+  font-size: 25px;
+  font-family: "Bebas Neue";
+}
+figure {
+  margin: 0;
+}
+img {
+  display: block;
+  
+}
+
+section,
+header,
+footer {
+  min-height: 100vh;
+}
+.header__hero {
+  margin: 0;
+  width: 1100px;
+  height: 10vh;
+  padding: 0;
+}
+
+.centre {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(240 248 255 / 57%);
+}
+
+/* ///////////////////////  Couleurs d'arrière plan de chacune des section */
+
+.conteneur:nth-of-type(1) {
+  background-color: bisque;
+}
+.conteneur:nth-of-type(2) {
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
+}
+.conteneur:nth-of-type(3) {
+  background-image: url("../images/city.jpg");
+  height: 100vh;
+}
+.conteneur:nth-of-type(4) {
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
+}
+
+.conteneur:nth-of-type(5) {
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
+}
+
+.conteneur:nth-of-type(6) {
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
+}
+.conteneur:nth-of-type(7) {
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
+}
+
+
+.conteneur:nth-of-type(9) {
+  background-image: url("../images/voyage.jpg");
+  height: 100vh;
+}
+
+
+
+
+/* ////////////////////////////////////////////////// .hero */
+
+.hero {
+  background-image: url("../images/city.jpg");
+  height: 100vh;
+}
