@@ -1,5 +1,9 @@
 h1{
     font-family: "DynaPuff";
+    
+    max-width: 1100px;
+    max-height: 1100px;
+    width: 50%;
 }
 h2{font-family:"DynaPuff";}
 
@@ -7,12 +11,12 @@ h2{font-family:"DynaPuff";}
 
 .recette__img{
     display: block;
-    width: 35%;
+    width: 30%;
     object-fit: cover;
     transform: rotate(5deg);
 }
 .recette__img img:hover{
-    transform: rotate(0deg);
+    transition: rotate(0deg);
 }
 .recette{
    display: flex;
@@ -22,7 +26,7 @@ h2{font-family:"DynaPuff";}
 .recette__article{
     flex-grow:1;
     flex-shrink: 0;
-    flex-basis : 200px;
+    flex-basis : 100px;
 
 }
 .recette__article p{
@@ -41,7 +45,7 @@ h2{font-family:"DynaPuff";}
 }
 .recette__figure img{
     padding: 10px;
- border:  4px solid grey;
+    border:2px solid grey;
     display: block;
     width: 30%;
     object-fit: cover;
@@ -54,7 +58,16 @@ h2{font-family:"DynaPuff";}
     flex-direction: row-reverse;
     
 }
+ figcaption{
+    transform: rotate(5deg);
+    
 
+    
+
+}
+.dot{
+    background-color: #44444400;
+}
 
 
 
